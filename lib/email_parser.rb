@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
-@@parser = ""
+@@all = []
 attr_accessor :data
 
 
