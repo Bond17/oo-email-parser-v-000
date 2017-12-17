@@ -18,8 +18,8 @@ def self.create(csv_data)
   @@all << email_parser
 end
 
-def self.parse(csv_data)
-  rows=csv_data.split(/[, ]/)
+def self.parse
+  rows=@csv_data.split(/[, ]/)
   puts rows
   rows
 
