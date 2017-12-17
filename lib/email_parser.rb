@@ -8,6 +8,7 @@ class EmailParser
 
 def self.new_from_csv(csv_data)
 emails= self.new
+@@emails << emails
 end
 
 def self.parse(csv_data)
