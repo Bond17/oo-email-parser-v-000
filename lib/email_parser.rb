@@ -12,10 +12,8 @@ attr_accessor :csv_data
 # @@emails << emails
 # end
 
-def self.create(csv_data)
-  email_parser = self.new
-  email_parser.csv_data = csv_data
-  @@all << email_parser
+def initialize
+
 end
 
 def self.parse
