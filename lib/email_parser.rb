@@ -6,9 +6,14 @@
 class EmailParser
 @@all = []
 
-def self.new_from_csv(csv_data)
-emails= self.new
-@@emails << emails
+# def self.new_from_csv(csv_data)
+# emails= self.new
+# @@emails << emails
+# end
+
+def initialize(name)
+    @name = name
+    @@all << self
 end
 
 def self.parse(csv_data)
