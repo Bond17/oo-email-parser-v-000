@@ -9,9 +9,8 @@ attr_accessor :data
 
 
   def initialize(string)
-      parser = self.new
-      parser.data = string
-      @@all << parser
+      @data = string
+
   end
 
 
