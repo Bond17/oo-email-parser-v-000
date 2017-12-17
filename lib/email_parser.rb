@@ -13,7 +13,7 @@ attr_accessor :data
   end
 
   def parse
-    @data.split(/[,]/)
+    @data.split(/[, ]/)
   end
 
 end
