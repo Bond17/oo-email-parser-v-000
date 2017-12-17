@@ -8,7 +8,7 @@ class EmailParser
 
 
   def self.create(string)
-      parser = self.new
+      @@parser = self.new
       person.name = name
       end
   end
