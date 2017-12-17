@@ -9,7 +9,7 @@ def self.new_from_csv(csv_data)
 emails= self.new
 end
 
-def self.parse(csv_data)
+def self.parse
   rows=csv_data.split(/[, ]/)
   puts rows
   rows
