@@ -12,8 +12,9 @@ class EmailParser
 # end
 
 def self.create(csv_data)
-    @csv_data = csv_data
-    @@all << self
+  person = self.new
+  person.name = name
+  @@all << person
 end
 
 def self.parse(csv_data)
