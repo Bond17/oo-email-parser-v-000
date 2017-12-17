@@ -5,6 +5,7 @@
 
 class EmailParser
 @@all = []
+attr_accessor :csv_data
 
 # def self.new_from_csv(csv_data)
 # emails= self.new
@@ -14,7 +15,7 @@ class EmailParser
 def self.create(csv_data)
   email_parser = self.new
   email_parser.csv_data = csv_data
-  @@all << person
+  @@all << email_parser
 end
 
 def self.parse(csv_data)
