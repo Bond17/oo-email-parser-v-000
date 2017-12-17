@@ -8,13 +8,13 @@ class EmailParser
 attr_accessor :data
 
 
-  def self.create(string)
+  def initialize(string)
       parser = self.new
       parser.data = string
       @@all << parser
   end
 
-  
+
 end
 
 juncture = EmailParser.new("asldfkjas;ldfkjaslkdfja;")
