@@ -12,6 +12,9 @@ attr_accessor :data
       @data = string
   end
 
+  def parse
+
+  end
 
 end
 
