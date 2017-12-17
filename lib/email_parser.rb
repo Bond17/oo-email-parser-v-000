@@ -12,8 +12,6 @@ attr_accessor :data
       parser = self.new
       parser.data = string
       @@all << parser
-
-      
   end
 
 end
