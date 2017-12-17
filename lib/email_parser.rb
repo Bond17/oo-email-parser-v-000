@@ -13,7 +13,7 @@ attr_accessor :data
       parser.data = string
       @@all << parser
 
-      end
+      
   end
 
 end
