@@ -8,7 +8,7 @@ class EmailParser
 attr_accessor :data
 
 
-  def self.create(string)
+  def self.create #(string)
       parser = self.new
       parser.data = string
       @@all << parser
