@@ -5,6 +5,7 @@
 
 class EmailParser
 @@parser = ""
+attr_accessor :data
 
 
   def self.create(string)
