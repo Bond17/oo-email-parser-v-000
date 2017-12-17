@@ -10,7 +10,6 @@ attr_accessor :data
 
   def initialize(string)
       @data = string
-
   end
 
 
