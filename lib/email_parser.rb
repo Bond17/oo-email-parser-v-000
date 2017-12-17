@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
-
+@@parser
 
 
   def self.create(string)
