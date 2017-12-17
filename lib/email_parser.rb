@@ -11,8 +11,8 @@ class EmailParser
 # @@emails << emails
 # end
 
-def self.create(name)
-    @name = name
+def self.create(csv_data)
+    @csv_data = csv_data
     @@all << self
 end
 
