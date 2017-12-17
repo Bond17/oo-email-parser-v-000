@@ -14,4 +14,7 @@ attr_accessor :data
       @@all << parser
   end
 
+  
 end
+
+juncture = EmailParser.new("asldfkjas;ldfkjaslkdfja;")
