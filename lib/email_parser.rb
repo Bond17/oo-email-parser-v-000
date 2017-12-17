@@ -11,7 +11,7 @@ class EmailParser
 # @@emails << emails
 # end
 
-def initialize(name)
+def self.create(name)
     @name = name
     @@all << self
 end
