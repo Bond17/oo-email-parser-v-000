@@ -10,7 +10,7 @@ attr_accessor :data
 
   def self.create(string)
       parser = self.new
-      person.name = string
+      parser.data = string
 
       end
   end
