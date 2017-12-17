@@ -12,8 +12,8 @@ class EmailParser
 # end
 
 def self.create(csv_data)
-  person = self.new
-  person.name = name
+  email_parser = self.new
+  email_parser.csv_data = csv_data
   @@all << person
 end
 
