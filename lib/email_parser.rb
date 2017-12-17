@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
-@@emails
+@@all = []
 
 def self.new_from_csv(csv_data)
 emails= self.new
