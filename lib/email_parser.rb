@@ -9,8 +9,9 @@ attr_accessor :data
 
 
   def self.create(string)
-      @@parser = self.new
-      person.name = name
+      parser = self.new
+      person.name = string
+
       end
   end
 
