@@ -14,6 +14,7 @@ attr_accessor :data
 
   def parse
   array =  @data.split(/[, ]/)
+  array.compact
   end
 
 end
